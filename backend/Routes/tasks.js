@@ -1,15 +1,14 @@
 const express = require("express");
 const router = express.Router();
-const Task = require("../Model/Task"); // Update with the correct path
+const Task = require("../Model/Task"); 
 
-// Create a task (with authentication)
 router.post("/tasks", async (req, res) => {
   try {
     const taskData = {
       title: req.body.title,
       description: req.body.description,
       dueDate: req.body.dueDate,
-      user: req.user ? req.user._id : null, // Associate the task with the authenticated user if available
+      user: req.user ? req.user._id : null, 
     };
 
     const task = await Task.create(taskData);
@@ -19,10 +18,8 @@ router.post("/tasks", async (req, res) => {
   }
 });
 
-// Create a task (without authentication
 
 
-// Assuming Task model has a 'completed' property
 router.get("/tasks", async (req, res) => {
   try {
     const tasks = await Task.find();
@@ -32,7 +29,6 @@ router.get("/tasks", async (req, res) => {
   }
 });
 
-// Assuming you have a route for updating a task
 router.put("/taskscompleted/:taskId", async (req, res) => {
   try {
     const { taskId } = req.params;
@@ -48,7 +44,6 @@ router.put("/taskscompleted/:taskId", async (req, res) => {
   }
 });
 
-// Update a task
 router.put("/tasks/:taskId", async (req, res) => {
   try {
     const updatedTask = await Task.findOneAndUpdate(
@@ -67,7 +62,6 @@ router.put("/tasks/:taskId", async (req, res) => {
   }
 });
 
-// Delete a task
 router.delete("/tasks/:taskId", async (req, res) => {
   try {
     const deletedTask = await Task.findOneAndDelete({

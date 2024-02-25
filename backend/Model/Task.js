@@ -15,11 +15,11 @@ const taskSchema = new mongoose.Schema({
   },
   user: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "User", // Assuming you have a User model
+    ref: "User",
   },
   completed: {
     type: Boolean,
-    default: false, // Set the default value to false
+    default: false,
   },
 });
 

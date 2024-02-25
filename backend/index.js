@@ -10,7 +10,6 @@ const User = require("./Model/user");
 
 app.use(express.json());
 app.use(cors());
-// Replace <password> and <dbname> with your actual MongoDB Atlas password and database name
 const dbURI = `mongodb+srv://shivamt2023:ft123shivam123@cluster0.innzwqk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
