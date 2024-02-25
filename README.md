@@ -14,3 +14,17 @@ cd yt-shorts
 npm install
 npm start
 ```
+
+## Explore the Home Page
+
+### Login Page
+![image](https://github.com/MR-Shivam-Tiwari/TaskManageMERN/assets/114647321/1da7357a-91db-44de-9dcb-90406db793b7)
+
+### Register Page
+![image](https://github.com/MR-Shivam-Tiwari/TaskManageMERN/assets/114647321/ce3271c9-6504-44c2-8038-56f931914693)
+
+### Dashboard Page
+![image](https://github.com/MR-Shivam-Tiwari/TaskManageMERN/assets/114647321/5a6427d9-3321-4792-8258-0d40d45b4966)
+
+
+
