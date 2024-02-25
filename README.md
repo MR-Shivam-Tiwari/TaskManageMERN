@@ -16,7 +16,7 @@ npm install (In Both Frontend Backend)
 npm start 
 ```
 
-## Explore the Home Page
+## Explore the Pages
 
 ### Login Page
 ![image](https://github.com/MR-Shivam-Tiwari/TaskManageMERN/assets/114647321/1da7357a-91db-44de-9dcb-90406db793b7)
