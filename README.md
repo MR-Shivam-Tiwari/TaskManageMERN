@@ -9,10 +9,11 @@ This will start the app in development mode. Open [http://localhost:3000](http:/
 To get started, clone this Git repository, install dependencies, and run the app:
 
 ```bash
-git clone <https://github.com/MR-Shivam-Tiwari/Youtube-Shorts.git>
-cd yt-shorts
-npm install
-npm start
+git clone <https://github.com/MR-Shivam-Tiwari/TaskManageMERN.git>
+cd task-manage (In FrontEnd)
+cd backend (In Backend)
+npm install (In Both Frontend Backend)
+npm start 
 ```
 
 ## Explore the Home Page
